@@ -9,7 +9,7 @@ body {
 .header { /* container */
     padding: 0px 20%;
     box-shadow: 0px 2px 4px #ededed;
-    background-color: white;
+    background-color: #1f2937;
     /* flexbox */
     display: flex;
     justify-content: space-between;
@@ -18,11 +18,7 @@ body {
 .logo-title {   /* container + item */
     display: flex;
     align-items: center;
-}
-
-.header-logo { /* item */
-    margin: 8px 0px;
-    margin-right: 16px;
+    color: white;
 }
 
 .header-links { /* item */
@@ -35,6 +31,7 @@ body {
 
 a { /* item */
     text-decoration: none;
+    color: white;
     margin: 0px 16px;
 }
 
