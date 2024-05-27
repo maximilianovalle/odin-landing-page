@@ -1,40 +1,70 @@
 body {
     margin: 0px;    /* removes white border around page */
-    background-color: #fcfcfc;
-    font-family: 'Hero Regular';
+    background-color: #f9faf8;
+    font-family: extra-bold;
+}
+
+/* FLEX CONTAINERS */
+
+.header, .header-links, .hero {
+    display: flex;
 }
 
 /* HEADER */
 
 .header { /* container */
-    padding: 0px 20%;
-    box-shadow: 0px 2px 4px #ededed;
+    padding: 0px 20%;   /* space on left and right of website */
     background-color: #1f2937;
     /* flexbox */
-    display: flex;
     justify-content: space-between;
-}
-
-.logo-title {   /* container + item */
-    display: flex;
-    align-items: center;
-    color: white;
 }
 
 .header-links { /* item */
     list-style-type: none;
     /* flexbox */
-    display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.header-title { /* item */
+    color: #f9faf8;
+    font-weight: bold;
+}
+
 a { /* item */
     text-decoration: none;
-    color: white;
+    color: #f9faf8;
     margin: 0px 16px;
 }
 
 .rightmost-link {   /* item */
     margin-right: 0px;
+}
+
+/* TOP */
+
+.hero { /* container */
+    padding: 80px 20%;
+    background-color: #1f2937;
+    /* flexbox */
+    justify-content: space-between;
+}
+
+.hero-left { /* item */
+    width: 47%;
+}
+
+.hero-right { /* item */
+    width: 47%;
+    height: auto;
+}
+
+.hl-header, .tl-sub {   /* item */
+    color: #f9faf8;
+    padding: 0px;
+    margin: 8px 0px;
+}
+
+.hl-header {
+    font-size: 48px;
 }
