@@ -1,7 +1,7 @@
 body {
     margin: 0px;    /* removes white border around page */
     background-color: #f9faf8;
-    font-family: extra-bold;
+    font-family: Arial, sans-serif;
 }
 
 /* FLEX CONTAINERS */
@@ -34,17 +34,21 @@ body {
 a { /* item */
     text-decoration: none;
     color: #f9faf8;
-    margin: 0px 16px;
+    padding: 8px 16px;
+}
+
+a:hover {
+    color: #a7a7a7;
 }
 
 .rightmost-link {   /* item */
-    margin-right: 0px;
+    padding-right: 0px;
 }
 
 /* TOP */
 
 .hero { /* container */
-    padding: 80px 20%;
+    padding: 80px 20%; /* space on left and right of website */
     background-color: #1f2937;
     /* flexbox */
     justify-content: space-between;
@@ -59,12 +63,33 @@ a { /* item */
     height: auto;
 }
 
-.hl-header, .tl-sub {   /* item */
-    color: #f9faf8;
+.hl-header, .hl-sub {   /* item */
     padding: 0px;
     margin: 8px 0px;
 }
 
-.hl-header {
+.hl-header {    /* item */
+    color: #f9faf8;
     font-size: 48px;
+    font-weight: bolder;
+}
+
+.hl-sub {
+    color: #e5e7eb;
+}
+
+.hl-button {    /* item */
+    margin-top: 8px;
+    color: #f9faf8;
+    padding: 8px 24px;
+    font-weight: bold;
+    /* button styling */
+    background-color: #3882f8;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.hl-button:hover {
+    background-color: #f9faf8;
+    color: #3882f8;
 }
