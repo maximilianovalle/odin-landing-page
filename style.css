@@ -4,34 +4,34 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* FLEX CONTAINERS */
+/* FLEX CONTAINERS ------------------ */
 
 .header, .header-links, .hero {
     display: flex;
 }
 
-/* HEADER */
+/* HEADER --------------------------- */
 
-.header { /* container */
+.header {
     padding: 0px 20%;   /* space on left and right of website */
     background-color: #1f2937;
     /* flexbox */
     justify-content: space-between;
 }
 
-.header-links { /* item */
+.header-links {
     list-style-type: none;
     /* flexbox */
     justify-content: center;
     align-items: center;
 }
 
-.header-title { /* item */
+.header-title {
     color: #f9faf8;
     font-weight: bold;
 }
 
-a { /* item */
+a {
     text-decoration: none;
     color: #f9faf8;
     padding: 8px 16px;
@@ -41,34 +41,35 @@ a:hover {
     color: #a7a7a7;
 }
 
-.rightmost-link {   /* item */
+.rightmost-link {
     padding-right: 0px;
 }
 
-/* TOP */
+/* TOP ------------------------------ */
 
-.hero { /* container */
+.hero {
     padding: 80px 20%; /* space on left and right of website */
     background-color: #1f2937;
     /* flexbox */
     justify-content: space-between;
 }
 
-.hero-left { /* item */
-    width: 47%;
+.hero-left {
+    width: 560px;
+    flex-shrink: 2;
 }
 
-.hero-right { /* item */
+.hero-right {
     width: 47%;
     height: auto;
 }
 
-.hl-header, .hl-sub {   /* item */
+.hl-header, .hl-sub {
     padding: 0px;
     margin: 8px 0px;
 }
 
-.hl-header {    /* item */
+.hl-header {
     color: #f9faf8;
     font-size: 48px;
     font-weight: bolder;
@@ -78,15 +79,16 @@ a:hover {
     color: #e5e7eb;
 }
 
-.hl-button {    /* item */
+.hl-button {
     margin-top: 8px;
     color: #f9faf8;
-    padding: 8px 24px;
     font-weight: bold;
+    font-size: 16px;
     /* button styling */
     background-color: #3882f8;
     border-radius: 10px;
     border-style: none;
+    padding: 8px 30px;
 }
 
 .hl-button:hover {
