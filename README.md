@@ -11,4 +11,4 @@ This project was built using a reference image of a complete website. This was a
 
 ## Lessons Learned:
 
-I learned to plan ahead by drawing a simple diagram of the website on paper first to help me figure out the layout in advance. This gave me a solid jumping off point and helped me start what would've otherwise be a very daunting task. I also learned to keep my code as neat and organized as I can. This project is one of the first I've done to span several days - taking a break and coming back to messy, confusing code wasn't very fun.
+I learned to plan ahead by drawing a simple diagram of the website on paper first to help me figure out the layout in advance. This gave me a solid jumping off point and helped me start what would've otherwise been a very daunting task. I also learned to keep my code as neat and organized as possible. This project is one of the first I've done to span several days - taking a break and coming back to messy, confusing code wasn't very fun.
