@@ -6,7 +6,7 @@ body {
 
 /* FLEX CONTAINERS ------------------ */
 
-.header, .header-links, .hero {
+.header, .header-links, .hero, .mid-info {
     display: flex;
 }
 
@@ -45,7 +45,7 @@ a:hover {
     padding-right: 0px;
 }
 
-/* TOP ------------------------------ */
+/* HERO ----------------------------- */
 
 .hero {
     padding: 80px 20%; /* space on left and right of website */
@@ -94,4 +94,40 @@ a:hover {
 .hl-button:hover {
     background-color: #f9faf8;
     color: #3882f8;
+}
+
+/* MID ------------------------------ */
+
+.mid {  /* contains .mid-title and .mid-info, but is not a flex container */
+    padding: 40px 30%;
+}
+
+.mid-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-top: 0px;
+}
+
+.mid-info { /* is a flex container. is not a flex item because its container (.mid) is not a flexbox */
+    /* flexbox */
+    justify-content: space-between;
+}
+
+.mid-section {
+    width: 150px;
+    /* flexbox */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mid-img {
+    width: 150px;
+    height: auto;
+}
+
+.mid-text {
+    text-align: center;
+    color: #1f2937;
 }
