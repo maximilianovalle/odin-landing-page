@@ -116,6 +116,7 @@ a:hover {
 
 .mid-section {
     width: 150px;
+    margin: 0px 8px;
     /* flexbox */
     display: flex;
     flex-direction: column;
