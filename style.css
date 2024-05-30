@@ -6,7 +6,7 @@ body {
 
 /* FLEX CONTAINERS ------------------ */
 
-.header, .header-links, .hero, .mid-info {
+.header, .header-links, .hero, .mid-info, .box {
     display: flex;
 }
 
@@ -150,4 +150,42 @@ a:hover {
     font-size: 24px;
     font-weight: bold;
     color: #1f2937
+}
+
+/* BUTTON ------------------------------ */
+
+.box {
+    margin: 80px 20%;
+    padding: 40px 120px;
+    background-color: #3882f8;
+    border-radius: 8px;
+    /* flexbox */
+    justify-content: space-between;
+}
+
+.bl-header, .bl-sub {
+    color: #e5e7eb;
+    margin: 4px;
+}
+
+.bl-header {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box-button {
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 16px;
+    align-self: center;
+    /* button styling */
+    background-color: #3882f8;
+    border-radius: 10px;
+    border: 2px solid #f9faf8;
+    padding: 8px 30px;
+}
+
+.box-button:hover {
+    color: #3882f8;
+    background-color: #f9faf8;
 }
