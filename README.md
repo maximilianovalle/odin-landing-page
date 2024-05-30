@@ -1,7 +1,7 @@
 # odin-landing-page
 The goal of this project is to build a copy of a web page from scratch using only a picture [landing-page-reference.png] as reference.
 
-**Link to project:** // TODO: ADD LINK
+**Link to project:** https://maximilianovalle.github.io/odin-landing-page/
 
 ## How It's Made:
 
