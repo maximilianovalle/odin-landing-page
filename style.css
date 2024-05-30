@@ -99,7 +99,7 @@ a:hover {
 /* MID ------------------------------ */
 
 .mid {  /* contains .mid-title and .mid-info, but is not a flex container */
-    padding: 40px 30%;
+    padding: 40px 25%;
 }
 
 .mid-title {
@@ -116,7 +116,6 @@ a:hover {
 
 .mid-section {
     width: 150px;
-    margin: 0px 8px;
     /* flexbox */
     display: flex;
     flex-direction: column;
@@ -136,7 +135,7 @@ a:hover {
 /* QUOTE ------------------------------ */
 
 .quote { /* not a flexbox */
-    padding: 40px 30%;
+    padding: 40px 25%;
     background-color: #e5e7eb;
 }
 
