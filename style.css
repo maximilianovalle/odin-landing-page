@@ -189,3 +189,15 @@ a:hover {
     color: #3882f8;
     background-color: #f9faf8;
 }
+
+/* BOTTOM ------------------------------ */
+
+.bottom {
+    background-color: #1f2937;
+    padding: 16px 20%;
+}
+
+.copyright {
+    text-align: center;
+    color: #f9faf8;
+}
