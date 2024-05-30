@@ -99,7 +99,7 @@ a:hover {
 /* MID ------------------------------ */
 
 .mid {  /* contains .mid-title and .mid-info, but is not a flex container */
-    padding: 40px 25%;
+    padding: 40px 30%;
 }
 
 .mid-title {
