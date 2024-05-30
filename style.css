@@ -135,7 +135,7 @@ a:hover {
 /* QUOTE ------------------------------ */
 
 .quote { /* not a flexbox */
-    padding: 40px 25%;
+    padding: 40px 30%;
     background-color: #e5e7eb;
 }
 
